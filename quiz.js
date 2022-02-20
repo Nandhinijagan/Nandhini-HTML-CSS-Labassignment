@@ -71,7 +71,7 @@ function handleOptionButton(choice, id){
 function showScore () {
     let result = "<h1> Results is:</h1>";
     let percentage =  calcualtePercentage(quiz.score, quiz.questions.length)
-    result += "<h2>Your score is: "+ quiz.score + " and your percentage is: "+ percentage + "%."+ "</h2>";
+    result += "<h2>Your score is: "+ quiz.score + ". </br>Your percentage is: "+ percentage + "%."+ "</h2>";
     var quizEl = document.getElementById("quiz").innerHTML = result;
 }
 

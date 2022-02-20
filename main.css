@@ -15,10 +15,10 @@ body {
  
 .grid h1 {
     font-family: "sans-serif";
-    background-color: #033322;
+    background-color: #01BBFF;
     font-size: 60px;
     text-align: center;
-    color: #ffffff;
+    color: black;
     padding: 2px 0px;
     
 }
@@ -43,7 +43,7 @@ body {
     background-color: #01BBFF;
     width: 250px;
     font-size: 20px;
-    color: #fff;
+    color: black;
     border: 1px solid #1D3C6A;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
@@ -61,4 +61,9 @@ body {
 #progress {
     color: #2b2b2b;
     font-size: 18px;
+}
+
+#quiz{
+    color:#01BBFF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
